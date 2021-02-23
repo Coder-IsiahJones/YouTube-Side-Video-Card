@@ -1,0 +1,49 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.recomendation {
+    display: flex;
+    width: 400px;
+    cursor: pointer;
+    right: 0px;
+}
+
+.view-info {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.preview {
+    position: relative;
+    margin-right: 0.5rem;
+}
+
+.timestamp {
+    position: absolute;
+    bottom: 5px;
+    right: 2px;
+    color: white;
+    background-color: black;
+    padding: 0.15rem;
+    border-radius: 0.25rem;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.username {
+    font-size: 1.1rem;
+}
+
+.info {
+    justify-content: space-around;
+}
+
+.center {
+    display: block;
+    margin: auto;
+    width: 40%;
+  }
